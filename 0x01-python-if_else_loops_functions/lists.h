@@ -4,12 +4,10 @@
 #include <stdlib.h>
 
 /**
- * struct listint_s - singly linked list
- * @n: integer
- * @next: points to the next node
- *
- * Description: singly linked list node structure
- * for Holberton project
+ * struct listint_s - a linked list
+ * @n: number integer
+ * @next:  the next node pointer
+ * Description: a linked list node structure
  */
 typedef struct listint_s
 {
@@ -23,4 +21,4 @@ void free_listint(listint_t *head);
 
 listint_t *insert_node(listint_t **head, int number);
 
-#endif /* LISTS_H */
+#endif
